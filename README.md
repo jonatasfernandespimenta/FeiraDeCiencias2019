@@ -26,6 +26,3 @@ hello@world:~$ pip install -U scikit-learn
 ```console
 hello@world:~$ python main.py
 ```
-
-Só lembrando que não é 100% preciso ;)
-OBS: Na época que criei isso, ainda não conhecia Multi Label Classification, portanto peço desculpas a quantidade de IF's que tem :D
