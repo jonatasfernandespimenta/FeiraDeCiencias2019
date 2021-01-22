@@ -33,7 +33,7 @@ print('OK\n')
 img_array = np.load(filename + '.npy')
 
 # Treina o algoritmo a partir do MNIST
-X, y = mnist["data"], mnist["target"]
+X, y = mnist["data"].values, mnist["target"].values
 
 print('Treinando algoritmo...')
 X_train, X_test, y_train, y_test = X[:60000], X[60000:], y[:60000], y[60000:]
